@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html ng-app="myweb">
+<head>
+	  <meta charset="utf-8">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+	<script>
+	function usrpas(){
+	if (document.form1.txt.value == "colindres" && document.form1.num.value == "colindres") {window.location="https://es.wikipedia.org/wiki/Galileo_Galilei"}
+	else {alert("su usuario o contraseña son incorrectos")}
+	}
+	document.oncontextmenu=new Function("return false");
+	</script>
+
+	<title>Inicio de Sesión</title>
+	<link href="https://static.tumblr.com/14326c08a6b9cf7460c8e96956f4e49e/oyiq9lq/YACnrcs16/tumblr_static_tumblr_static_btg8n6djj5s0o4wk48o0wo4oc_640.png" rel="stylesheet" type="text/css">
+</head>
+
+	<form name="form1">
+<h1>inicio de sesión</h1>
+<input type="text"  placeholder="usuario" name="txt"><br>
+<input type="password"  placeholder="contraseña" name="num"> <br>
+<button type="button" value="Entrar" onclick="usrpas()">Entrar</button>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.7/angular.min.js"></script>
+<script src="script.js"></script>
+</form>
+</body>
+</html>
